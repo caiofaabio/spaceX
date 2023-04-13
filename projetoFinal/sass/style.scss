@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+// home
+$imagem1: url(../img/home/01.jpg);
+$imagem3: url(../img/home/02.gif);
+$imagem2: url(../img/home/03.jpg);
+$imagem4: url(../img/home/04.jpg);
+
+// falcol9
+$falcon1: url(../img/falcon9/01.jpg);
+$falcon2: url(../img/falcon9/02.jpg);
+$falcon3: url(../img/falcon9/03.jpg);
+$falcon4: url(../img/falcon9/04.jpg);
+$falcon5: url(../img/falcon9/05.jpg);
+$falcon6: url(../img/falcon9/06.jpg);
+$falcon7: url(../img/falcon9/07.jpg);
+$falcon8: url(../img/falcon9/08.jpg);
+
+// human flight
+$human1: url(../img/humanFlight/01.jpg);
+$human2: url(../img/humanFlight/02.jpg);
+$human3: url(../img/humanFlight/03.jpg);
+$human4: url(../img/humanFlight/04.jpg);
+$human5: url(../img/humanFlight/05.jpg);
+
+@import './communElements/variables';
+
+@import './communElements/communElements';
+
+@import './pages/home';
+
+@import './pages/falcon9';
+
+@import './pages/humanSpace';
